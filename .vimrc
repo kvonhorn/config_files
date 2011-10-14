@@ -8,10 +8,12 @@ set tw=500
 set ai          " Auto indent
 set si          " Smart indent
 set wrap        " Wrap lines
-set number      " Line numbers
 set numberwidth=5
-set columns=85
-set lines=25
+if has("gui_running")
+    set columns=85
+    set lines=25
+    set number      " Line numbers
+endif
 
 set ruler       " Show current position
 
