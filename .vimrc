@@ -1,6 +1,6 @@
 set expandtab   " Spaces, not tabs
-set shiftwidth=4
-set softtabstop=4
+set shiftwidth=2
+set softtabstop=2
 set tabstop=8   " Real tabs shift 8 spaces
 set smarttab
 set lbr
@@ -10,7 +10,7 @@ set si          " Smart indent
 set wrap        " Wrap lines
 set numberwidth=5
 if has("gui_running")
-    set columns=85
+    set columns=105
     set lines=25
     set number      " Line numbers
 endif
@@ -36,7 +36,7 @@ endtry
 
 set ffs=unix,mac,dos    " Default file types
 syntax enable           " Enable syntax highlighting
-"set gfn=Inconsolata\ Medium:h11
+set gfn=Inconsolata\ Medium\ 12
 set shell=/bin/zsh
 set fileformats=unix
 set ff=unix
