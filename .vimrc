@@ -12,9 +12,10 @@ set numberwidth=5
 if has("gui_running")
     set columns=105
     set lines=25
-    set number      " Line numbers
+    set gfn=Inconsolata\ Medium\ 12
 endif
 
+set number      " Line numbers
 set ruler       " Show current position
 
 set ignorecase  " Ignore case when searching
@@ -36,7 +37,6 @@ endtry
 
 set ffs=unix,mac,dos    " Default file types
 syntax enable           " Enable syntax highlighting
-set gfn=Inconsolata\ Medium\ 12
 set shell=/bin/zsh
 set fileformats=unix
 set ff=unix
